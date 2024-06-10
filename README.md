@@ -1,4 +1,4 @@
-WITH filtered_tasks AS (
+``` WITH filtered_tasks AS (
     SELECT 
         t.task_id,
         h.action,
@@ -61,3 +61,4 @@ FROM
     suspended_without_assigned
 ORDER BY 
     task_id;
+```
