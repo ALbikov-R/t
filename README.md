@@ -1,4 +1,5 @@
-``` WITH filtered_tasks AS (
+```
+WITH filtered_tasks AS (
     SELECT 
         t.task_id,
         h.action,
